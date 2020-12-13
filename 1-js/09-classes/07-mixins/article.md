@@ -144,7 +144,7 @@ let eventMixin = {
     if (!handlers) return;
     for (let i = 0; i < handlers.length; i++) {
       if (handlers[i] === handler) {
-        handlers.splice(i--, 1);
+        handlers.splice(i, 1);
       }
     }
   },
